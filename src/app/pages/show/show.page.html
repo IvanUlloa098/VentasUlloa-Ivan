@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>show</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <h1>{{producto.nombre}}</h1>
+    <img [src]="producto.imagePath" alt="">
+    <p>Precio: {{producto.nombre}}</p>
+    <p>Descripcion {{producto.descripcion}}</p>
+  </div>
+
+  <ion-button color="primary" (click)="agregar()">Agregar a carro</ion-button>
+</ion-content>
